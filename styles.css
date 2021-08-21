@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#7C3AED;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* navigation bar */
+
+.navbar, .navbar a{
+    background-color:var(--primary-color);
+    margin:0;
+    color:white;
+    font-weight: 700;
+}
+
+.navbar{
+    height: 8.75rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navBrand p {
+    margin-top:0;
+    padding:1rem 0 0 1rem;
+    font-weight: 700;
+}
+
+.navLink{
+    text-decoration: none;
+    
+}
+
+.navbar ul {
+    list-style:none;
+    margin-top: 3.125rem;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    position:relative;
+    left:65.625rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    margin-right:2rem;
+    cursor:pointer;
+}
+
+/* Header */
+
+
+
+.head{
+    text-align:center;
+}
+
+
+.head img{
+    height: 25rem;
+    margin-top: 3.125rem;
+}
+
+
+/* mainOne */
+
+
+.mainOne{
+    background-color: var(--primary-color);
+    text-align:center;
+    color:white;
+    padding: 2rem 0;
+    width: 75rem;
+    margin:auto;
+    border-radius: 0.5rem;
+    box-shadow:10px 5px 5px gray;
+}
+
+/*mainTwo */
+
+.mainTwo{
+    text-align:center;
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 2rem 0;
+    width: 75rem;
+    margin:40px 0 0 115px;
+    border-radius:0.5rem;
+    box-shadow:10px 5px 5px gray;
+}
+
+.mainTwo .btn{
+    padding: 12px;
+    color:white;
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    font-weight:700;
+    border: 1px solid var(--primary-color);
+    cursor:pointer;
+  }
+
+  .mainTwo .btn a{
+        text-decoration: none;
+        color:white;
+  }
+
+  /* mainThree */
+
+.mainThree{
+    background-color: var(--primary-color);
+    text-align:center;
+    color:white;
+    padding: 2rem 0;
+    width: 75rem;
+    margin:40px 0 0 115px;
+    border-radius: 0.5rem;
+    box-shadow:10px 5px 5px gray;
+
+}
+
+.mainThree .btn{
+  
+    padding: 12px;
+    background-color:white;
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    font-weight:700;
+    border: 1px solid var(--primary-color);
+    cursor:pointer;
+  }
+  
+  .mainThree .btn a{
+    text-decoration: none;
+    color:var(--primary-color);
+}
+
+
+
+/* footer */
+
+.foot{
+    margin-top: 100px;
+    text-align:center;
+    background-color: var(--primary-color);
+    color:white;
+    padding-top:20px;
+}
+
+.foot ul{
+    list-style: none;
+    margin-bottom:0;
+}
+
+.foot ul li{
+    display:inline-block;
+    margin:10px;
+
+}
+
+.foot ul li a{
+   color:white;
+}
