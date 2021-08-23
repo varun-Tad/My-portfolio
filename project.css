@@ -60,7 +60,8 @@ body{
 }
 
 
-.container{
+.container1,.container2{
+  margin-top: 5rem;
   display:flex;
   flex-direction:row;
   justify-content: space-around;
@@ -106,10 +107,84 @@ body{
 
 
 .markTwo .btn a{
-  text-decoration: none;
-  color:white;
-  font-weight:700;
+    text-decoration: none;
+    color:white;
+    font-weight:700;
 }
+
+
+
+.markSix{
+    border: 1px solid var(--primary-color);
+    text-align:center;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 0.5rem;  
+}
+
+.markSix .btn{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 0 8px;
+}
+
+
+.markSix .btn a{
+    text-decoration: none;
+    color:white;
+    font-weight:700;
+}
+
+
+.markSeven{
+    border: 1px solid var(--primary-color);
+    text-align:center;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 0.5rem;  
+}
+
+.markSeven .btn{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 0 8px;
+}
+
+
+.markSeven .btn a{
+    text-decoration: none;
+    color:white;
+    font-weight:700;
+}
+
+
+.markEight{
+    border: 1px solid var(--primary-color);
+    text-align:center;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 0.5rem;  
+}
+
+.markEight .btn{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 0 8px;
+}
+
+
+.markEight .btn a{
+    text-decoration: none;
+    color:white;
+    font-weight:700;
+}
+
+
+
+
 
 
 
