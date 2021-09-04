@@ -53,6 +53,10 @@ body{
     cursor:pointer;
 }
 
+#name a{
+    text-decoration: none;
+}
+
 /* Header */
 
 
