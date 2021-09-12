@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#7C3AED;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* navigation bar */
+
+.navbar, .navbar a{
+    background-color:var(--primary-color);
+    margin:0;
+    color:white;
+    font-weight: 700;
+}
+
+.navbar{
+    height: 8.75rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navBrand p {
+    margin-top:0;
+    padding:1rem 0 0 1rem;
+    font-weight: 700;
+}
+
+.navLink{
+    text-decoration: none;
+    
+}
+
+.navbar ul {
+    list-style:none;
+    margin-top: 3.125rem;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    position:relative;
+    left:65.625rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    margin-right:2rem;
+    cursor:pointer;
+}
+
+#name a{
+    text-decoration: none;
+}
+
+.theh2{
+    text-align:center;
+    margin-top: 100px;
+}
+
+/*Blogs */
+
+
+#blog-one{
+ color: var(--primary-color);
+ border: 2px solid var(--primary-color);
+ width: 70vw;
+ margin:auto;
+ margin-top: 100px;
+ padding: 10px;
+ border-radius: 0.5rem;
+
+}
+
+#blog-one p{
+    color:black;
+}
+
+#blog-two{
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    width: 70vw;
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 0.5rem;
+   
+   }
+   
+#blog-two p{
+       color:black;
+   }
+
+
+/*button*/
+
+
+.btn{
+    background-color:var(--primary-color);
+    color:white;
+    padding:7px;
+    cursor:pointer;
+    border-radius: 0.5rem;
+    font-weight: 800;
+
+}
+
+
+.btn:hover{
+    color:var(--primary-color);
+    background-color: white;
+    border:3px solid var(--primary-color);
+}

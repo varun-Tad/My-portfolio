@@ -257,6 +257,30 @@ body{
 }
 
 
+
+.markTwelve{
+    border: 1px solid var(--primary-color);
+    text-align:center;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 0.5rem;  
+}
+
+.markTwelve .btn{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 0 8px;
+}
+
+
+.markTwelve .btn a{
+    text-decoration: none;
+    color:white;
+    font-weight:700;
+}
+
+
 .markThirteen{
     border: 1px solid var(--primary-color);
     text-align:center;
