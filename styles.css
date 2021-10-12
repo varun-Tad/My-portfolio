@@ -57,6 +57,7 @@ body{
     text-decoration: none;
 }
 
+
 /* Header */
 
 
@@ -72,6 +73,7 @@ body{
 }
 
 
+
 /* mainOne */
 
 
@@ -81,10 +83,15 @@ body{
     color:white;
     padding: 2rem 0;
     width: 75rem;
-    margin:auto;
+    /* margin:auto; */
+    margin:40px 0 0 115px;
     border-radius: 0.5rem;
     box-shadow:10px 5px 5px gray;
 }
+
+
+
+
 
 /*mainTwo */
 
@@ -114,7 +121,10 @@ body{
         color:white;
   }
 
-  /* mainThree */
+  
+
+  
+   /* mainThree */
 
 .mainThree{
     background-color: var(--primary-color);
@@ -146,6 +156,10 @@ body{
 
 
 
+
+
+
+
 /* footer */
 
 .foot{
@@ -170,3 +184,4 @@ body{
 .foot ul li a{
    color:white;
 }
+
